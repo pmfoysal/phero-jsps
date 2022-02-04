@@ -1,2 +1,3 @@
-# phero-jsps
-Milestone 04 - JS Problem Solving
+# JavaScript - Problem Solving
+
+Programming-Hero_Milestone-04_JavaScript-Problem-Solving!
