@@ -51,3 +51,13 @@ for (let i = 0; i < results.length; i++) {
    const {name, mark} = results[i];
    numToGradeOf(name, mark);
 }
+
+// Method 02 - Using While Loop
+console.log('\n==== Method 02 - Using While Loop ====');
+
+let i = 0;
+while (i < results.length) {
+   const {name, mark} = results[i];
+   numToGradeOf(name, mark);
+   i++;
+}
