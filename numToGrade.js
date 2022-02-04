@@ -69,3 +69,11 @@ for (const student of results) {
    const {name, mark} = student;
    numToGradeOf(name, mark);
 }
+
+// Method 04 - Using For Each Function
+console.log('\n==== Method 04 - Using For Each Function ====');
+
+results.forEach(student => {
+   const {name, mark} = student;
+   numToGradeOf(name, mark);
+});
