@@ -77,3 +77,11 @@ results.forEach(student => {
    const {name, mark} = student;
    numToGradeOf(name, mark);
 });
+
+// Method 05 - Using Map Function
+console.log('\n==== Method 05 - Using Map Function ====');
+
+results.map(student => {
+   const {name, mark} = student;
+   numToGradeOf(name, mark);
+});
