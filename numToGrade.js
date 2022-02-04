@@ -53,3 +53,31 @@ while (i < numbers.length) {
 
    i++;
 }
+
+// Solving Method 03 - Using For of Loop
+console.log('\n==== Solving Method 03 - Using For of Loop ====');
+
+var numbers = [95, 66, 80, 59, 47, 77];
+var names = ['Alia', 'Dalia', 'Salia', 'Malia', 'Lilia', 'Jalaia'];
+var i = 0;
+for (var mark of numbers) {
+   var name = names[i];
+
+   if (mark > 0 && mark <= 100) {
+      if (mark >= 80) {
+         console.log(name + ' has got A+');
+      } else if (mark >= 70) {
+         console.log(name + ' has got A');
+      } else if (mark >= 60) {
+         console.log(name + ' has got A-');
+      } else if (mark >= 50) {
+         console.log(name + ' has got B');
+      } else {
+         console.log(name + ' has Failed!');
+      }
+   } else {
+      console.log('Invalid Numbers Found!');
+   }
+
+   i++;
+}
