@@ -61,3 +61,11 @@ while (i < results.length) {
    numToGradeOf(name, mark);
    i++;
 }
+
+// Method 03 - Using For of Loop
+console.log('\n==== Method 03 - Using For of Loop ====');
+
+for (const student of results) {
+   const {name, mark} = student;
+   numToGradeOf(name, mark);
+}
