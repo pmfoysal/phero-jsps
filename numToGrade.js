@@ -163,3 +163,37 @@ function numToGradeOf(name, mark) {
       console.log('Invalid Numbers Found!');
    }
 }
+
+// Solving Method 07 - Using Array of Objects
+console.log('\n==== Solving Method 07 - Using Array of Objects ====');
+
+var results = [
+   {
+      name: 'Alia',
+      mark: 95,
+   },
+   {
+      name: 'Dalia',
+      mark: 66,
+   },
+   {
+      name: 'Salia',
+      mark: 80,
+   },
+   {
+      name: 'Malia',
+      mark: 59,
+   },
+   {
+      name: 'Lilia',
+      mark: 47,
+   },
+   {
+      name: 'Jalaia',
+      mark: 77,
+   },
+];
+
+for (var student of results) {
+   numToGradeOf(student.name, student.mark);
+}
