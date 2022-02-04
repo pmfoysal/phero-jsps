@@ -85,3 +85,13 @@ results.map(student => {
    const {name, mark} = student;
    numToGradeOf(name, mark);
 });
+
+// Method 06 - Using Type Manually
+console.log('\n==== Method 05 - Using Type Manually ====');
+
+numToGradeOf('Alia', 95);
+numToGradeOf('Dalia', 66);
+numToGradeOf('Salia', 80);
+numToGradeOf('Malia', 59);
+numToGradeOf('Lilia', 47);
+numToGradeOf('Jalaia', 77);
