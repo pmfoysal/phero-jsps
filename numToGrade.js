@@ -43,3 +43,11 @@ function numToGradeOf(name, mark) {
       console.log('Invalid Numbers Found!');
    }
 }
+
+// Method 01 - Using For Loop
+console.log('\n==== Method 01 - Using For Loop ====');
+
+for (let i = 0; i < results.length; i++) {
+   const {name, mark} = results[i];
+   numToGradeOf(name, mark);
+}
